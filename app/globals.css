@@ -210,6 +210,29 @@ main {
   gap: 1rem;
 }
 
+.portrait-wrap {
+  margin-top: 0.9rem;
+  border-radius: 18px;
+  overflow: clip;
+  border: 1px solid #d6ddcf;
+  background: #f9fff8;
+  box-shadow: 0 12px 30px rgba(17, 78, 74, 0.12);
+}
+
+.portrait-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portrait-wrap figcaption {
+  font-size: 0.84rem;
+  color: var(--ink-soft);
+  padding: 0.55rem 0.75rem;
+  border-top: 1px solid #dde4d7;
+  background: #f5fbf2;
+}
+
 .about-card {
   border: 1px dashed #b8c6ba;
   border-radius: 18px;

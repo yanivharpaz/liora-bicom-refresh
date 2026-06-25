@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const treatmentSteps = [
   {
     title: "תשאול והבנה מעמיקה",
@@ -60,6 +62,17 @@ export default function Home() {
           <div>
             <p className="section-kicker">אודות</p>
             <h2>ליאורה אפשטיין</h2>
+            <figure className="portrait-wrap">
+              <Image
+                src="/liora-epstein.jpg"
+                alt="ליאורה אפשטיין"
+                width={900}
+                height={600}
+                className="portrait-image"
+                priority
+              />
+              <figcaption>ליאורה אפשטיין - קליניקה לרפואת תדרים מתקדמת</figcaption>
+            </figure>
             <p>
               מאז 1979 ליאורה עוסקת באבחון וטיפול בשיטות תדר מתקדמות, עם ניסיון
               עשיר בעבודה קלינית ובהדרכת מטפלים בארץ ובאירופה.
